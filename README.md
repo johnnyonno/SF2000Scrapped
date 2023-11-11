@@ -11,7 +11,7 @@ Scrapped image for SF2000 + Multicore
 
 # How to create your own image
 
-1. Download and unzip the release (https://github.com/johnnyonno/SF2000Scrapped/releases/download/v1.0/SF2000Scrapped_v1.0.zip) to the root of an empty SD card formatted in FAT32
+1. Download and unzip the release (https://github.com/johnnyonno/SF2000Scrapped/releases/download/v2.0/SF2000Scrapped_v2.0.zip) to the root of an empty SD card formatted in FAT32
 2. Download and unzip the latest SF2000 multicore (https://github.com/madcock/sf2000_multicore_cores/releases) to somewhere else in your computer
 - copy everything from MULTICORE/bios to SDCARD/bios
 - copy everything from MULTICORE/cores/config to SDCARD/cores/config
