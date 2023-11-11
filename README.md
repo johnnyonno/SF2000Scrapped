@@ -71,6 +71,7 @@ You can use Tadpole (https://github.com/EricGoldsteinNz/tadpole) to rename/delet
 
 # Notes & Caveats
 
+- You can use Tadpole to choose "shortcut roms" too (the 4 ones found on the main page of a system), even change the image (you'll need to provide your own images here though).
 - Not all games from the romsets are available as ZFB files; only the ones I could scrape from (https://www.screenscraper.fr/)
 - If you have a ZFB file that doesn't have its corresponding rom file in the proper roms directory, it will hang on "Loading" screen: power cycle your device to exit.
 - You can rename the ZFB files as you please: you can do it with Tadpole directly, or directly on the Filesystem. If you do it from the Filesystem, you'll need to rebuild the rom list using Tadpole (just load tadpole and select the system from the combo-box at the top).
