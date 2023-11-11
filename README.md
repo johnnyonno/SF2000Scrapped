@@ -34,7 +34,8 @@ Scrapped image for SF2000 + Multicore
 - copy everything from MULTICORE/cores/sega to SDCARD/cores/sms
 3. Copy all bios files from ORIGINALSD/bios to SDCARD/bios (gba_bios.bin, neogeo.zip, etc.)
 4. Provide needed extra bios files (syscard3.pce, disksys.rom, etc.)
-5. Copy your UNZIPPED No-Intro named ROMS to SDCARD/ROMS
+5. Copy your Arcade roms from ORIGINALSD/ARCADE/bin to SDCARD/ARCADE/bin
+6. Copy your UNZIPPED No-Intro named ROMS to SDCARD/ROMS
 - ROMS/32x - Sega 32x roms, 32x extension
 - ROMS/a26 - Atari 26000 roms, a26 extension
 - ROMS/fds - Famicom Disk System roms, fds extension
@@ -49,13 +50,30 @@ Scrapped image for SF2000 + Multicore
 - ROMS/ngp - NeoGeo Pocket roms, ngc extension (you may need to rename some files here)
 - ROMS/pce - PC Engine roms, pce extension
 - ROMS/sfc - SNES roms, sfc extension
-- ROMS/sfd - SNES roms, sfd extension
+- ROMS/sfd - SNES roms, sfc extension
 - ROMS/sg - Sega SG-1000 roms, sg extension
 - ROMS/sms - Master System roms, sms extension
+
+# What will you find here
 
 Now all your roms should work on the device, with beautiful boxart, using the stock menu.
 
 You can use Tadpole (https://github.com/EricGoldsteinNz/tadpole) to rename/delete the stubs you don't need (Note: screenshots won't be shown on Tadpole, but they'll show on device).
+
+- Original NES Folder, now will have NES roms (prefixed with nes)) and FDS roms (prefixed with fds))
+- Original SNES Folder, now will have SNES roms (prefixed with sfc) will run on Snes9x 2005, prefixed with 02) will run on Snes9x 2002)
+- Original GB Folder, now will have GB, GBC, GBA roms (prefixed by gb) gbc) gba) respectively)
+- Original GBC Folder, now will have Atari2600, NeoPocket, Lynx roms (prefixed by a26) ngp) lnx) respectively)
+- Original GBA Folder, now will have PC Engine roms (prefixed by pce))
+- Original MegaDrive Folder, now will have SG-1000, Master System, MegaDrive, 32x, GameGear roms (prefixed by sg) sms) md) 32x) gg) respectively)
+- Original Arcade Folder is unchanged
+- ROMS folder will contain stubs for Mame2000 roms.
+
+# Notes & Caveats
+
+- Not all games from the romsets are available as ZFB files; only the ones I could scrape from (https://www.screenscraper.fr/)
+- If you have a ZFB file that doesn't have its corresponding rom file in the proper roms directory, it will hang on "Loading" screen: power cycle your device to exit.
+- You can rename the ZFB files as you please: you can do it with Tadpole directly, or directly on the Filesystem. If you do it from the Filesystem, you'll need to rebuild the rom list using Tadpole (just load tadpole and select the system from the combo-box at the top).
 
 # Thanks to all this amazing people
 
