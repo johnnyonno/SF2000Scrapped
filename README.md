@@ -5,14 +5,14 @@ Scrapped image for SF2000 + Multicore
 
 # What do you need to start with
 
-1. Latest release from SF2000 multicore: https://github.com/madcock/sf2000_multicore_cores/releases/tag/v0.08
+1. Latest release from SF2000 multicore: https://github.com/madcock/sf2000_multicore_cores/releases
 2. An SD card formatted to FAT32 (Use https://github.com/inconsistent-dg/guiformat to properly format cards bigger than 32GB)
 3. You need to provide your own roms, in No-Intro (https://no-intro.org/) naming convention
 
 # How to create your own image
 
 1. Download and unzip the release (https://github.com/johnnyonno/SF2000Scrapped/releases/download/v1.0/SF2000Scrapped_v1.0.zip) to the root of an empty SD card formatted in FAT32
-2. Download and unzip the latest SF2000 multicore (https://github.com/madcock/sf2000_multicore_cores/releases/tag/v0.08) to somewhere else in your computer
+2. Download and unzip the latest SF2000 multicore (https://github.com/madcock/sf2000_multicore_cores/releases) to somewhere else in your computer
 - copy everything from MULTICORE/bios to SDCARD/bios
 - copy everything from MULTICORE/cores/config to SDCARD/cores/config
 - copy everything from MULTICORE/cores/sega to SDCARD/cores/32x
@@ -60,13 +60,13 @@ Now all your roms should work on the device, with beautiful boxart, using the st
 
 You can use Tadpole (https://github.com/EricGoldsteinNz/tadpole) to rename/delete the stubs you don't need (Note: screenshots won't be shown on Tadpole, but they'll show on device).
 
-- Original NES Folder, now will have NES roms (prefixed with nes)) and FDS roms (prefixed with fds))
-- Original SNES Folder, now will have SNES roms (prefixed with sfc) will run on Snes9x 2005, prefixed with 02) will run on Snes9x 2002)
-- Original GB Folder, now will have GB, GBC, GBA roms (prefixed by gb) gbc) gba) respectively)
-- Original GBC Folder, now will have Atari2600, NeoPocket, Lynx roms (prefixed by a26) ngp) lnx) respectively)
-- Original GBA Folder, now will have PC Engine roms (prefixed by pce))
-- Original MegaDrive Folder, now will have SG-1000, Master System, MegaDrive, 32x, GameGear roms (prefixed by sg) sms) md) 32x) gg) respectively)
-- Original Arcade Folder is unchanged
+- Original NES Folder, now will have NES roms (prefixed with nes)) and FDS roms (prefixed with fds)) -> NES SYSTEM
+- Original SNES Folder, now will have SNES roms (prefixed with sfc) will run on Snes9x 2005, prefixed with 02) will run on Snes9x 2002) -> SNES SYSTEM
+- Original GB Folder, now will have GB, GBC, GBA roms (prefixed by gb) gbc) gba) respectively) -> GAME BOY SYSTEM
+- Original GBC Folder, now will have Atari2600, NeoPocket, Lynx roms (prefixed by a26) ngp) lnx) respectively) -> MISC SYSTEMS
+- Original GBA Folder, now will have PC Engine roms (prefixed by pce)) -> PCE SYSTEM
+- Original MegaDrive Folder, now will have SG-1000, Master System, MegaDrive, 32x, GameGear roms (prefixed by sg) sms) md) 32x) gg) respectively) -> SEGA SYSTEM
+- Original Arcade Folder is unchanged -> ARCADE SYSTEM
 - ROMS folder will contain stubs for Mame2000 roms.
 
 # Notes & Caveats
