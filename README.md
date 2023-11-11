@@ -75,6 +75,7 @@ You can use Tadpole (https://github.com/EricGoldsteinNz/tadpole) to rename/delet
 - Not all games from the romsets are available as ZFB files; only the ones I could scrape from (https://www.screenscraper.fr/)
 - If you have a ZFB file that doesn't have its corresponding rom file in the proper roms directory, it will hang on "Loading" screen: power cycle your device to exit.
 - You can rename the ZFB files as you please: you can do it with Tadpole directly, or directly on the Filesystem. If you do it from the Filesystem, you'll need to rebuild the rom list using Tadpole (just load tadpole and select the system from the combo-box at the top).
+- DON'T TRY TO KEEP FULL ROMSETS ON YOUR DEVICE! All the files are provided here FOR YOU TO TRIM THE SET DOWN TO YOUR PREFERENCES! 
 
 # Thanks to all this amazing people
 
